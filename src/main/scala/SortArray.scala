@@ -1,6 +1,5 @@
 import org.apache.spark.{SparkConf, SparkContext}
-import org.apache.spark.SparkContext
-import org.apache.spark.rdd.RDD._
+
 object SortArray {
   def main(args: Array[String]) {
     val conf = new SparkConf()
